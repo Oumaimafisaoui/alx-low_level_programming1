@@ -1,13 +1,13 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ *
+ * Description: "Does nothing it is a  test"
+ *
+ * Return: Always 0
+ */
 
-/* this is  the main
- *
- *
- *
- *
- *
- *  */
 
 int main(void)
 {
