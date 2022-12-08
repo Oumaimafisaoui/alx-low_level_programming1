@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * 5-printf.c - Entry point
+ * main - Entry point
  *
  * Description: 'hey'
  *
