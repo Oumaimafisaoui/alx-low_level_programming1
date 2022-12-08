@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: wow
+ * 5-printf.c - Entry point
  *
- * Description: hey
+ * Description: 'hey'
  *
  * return : 0
  */
