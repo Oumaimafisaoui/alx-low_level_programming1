@@ -1,7 +1,14 @@
 #include <stdio.h>
 
 
-/* refrgrgr45 */
+/* this is  the main
+ *
+ *
+ *
+ *
+ *
+ *  */
+
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
