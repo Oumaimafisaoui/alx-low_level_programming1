@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char k[100] = "and that piece of art is useful\" - Dora Korpar, 2015 - 10 - 19";
+	char k[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 	fprintf(stderr, "%s", k);
 	return (1);
 }
