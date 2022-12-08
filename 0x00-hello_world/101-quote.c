@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	char k[];
+	char k[100];
 
 	k = "\"and that piece of art is useful" - Dora Korpar, 2015 - 10 - 19\"";
 	fprintf(stderr, "%s", k);
