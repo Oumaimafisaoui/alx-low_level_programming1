@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: djhewgjew
+ * main : djhewgjew
  *
- * Description: 'dfrwfr jghvj'
+ * Description : 'dfrwfr jghvj'
  *
  * Return : khfbwebf
  **/
