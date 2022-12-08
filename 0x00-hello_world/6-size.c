@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main : djhewgjew
+ * main - Entry point
  *
- * Description : 'dfrwfr jghvj'
+ * Description: 'dfrwfr jghvj'
  *
- * Return : khfbwebf
+ * Return: khfbwebf
  **/
-
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n", sizeof(char));
