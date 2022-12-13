@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  *
@@ -8,8 +8,8 @@
  * Return: ero
  **/
 
-int main(void)
+void print_alphabet(void)
 {
-	printf("_putchar\n");
+	printf("abcdefghijklmnopqrstuvwxyz\n");
 	return (0);
 }
