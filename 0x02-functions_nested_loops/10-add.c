@@ -11,7 +11,7 @@
  * Return: Always 0.
  */
 
-void add(void)
+void add(int a, int b)
 {
 	return (a + b);
 
