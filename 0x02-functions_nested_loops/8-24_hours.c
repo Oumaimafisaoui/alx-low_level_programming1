@@ -4,7 +4,6 @@
 /**
  * jack_bauer - Something
  *
- * @i: ehkwbfehw
  *
  * Description: 'print_alphabet is a function'
  *
