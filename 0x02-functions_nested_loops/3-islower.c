@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _islower - Entry point
+ * _islower - Something
  *
  * Description: 'print_alphabet is a function'
  *
@@ -11,7 +11,7 @@
 
 int _islower(int c)
 {
-	if(c >= 'a' && c <= 'z')
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	return (0);
 }
