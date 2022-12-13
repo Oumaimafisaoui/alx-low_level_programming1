@@ -3,5 +3,5 @@
 
 int print_sign(int n);
 void _putchar(char c);
-
+int _abs(int i);
 #endif
