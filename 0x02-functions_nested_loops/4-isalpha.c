@@ -1,7 +1,7 @@
 #include "main.h"
 #include <unistd.h>
 /**
- * _islower - Something
+ * _isalpha - Something
  *
  * @c: ehkwbfehw
  *
@@ -11,9 +11,9 @@
  */
 
 
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
 	return (0);
 }
