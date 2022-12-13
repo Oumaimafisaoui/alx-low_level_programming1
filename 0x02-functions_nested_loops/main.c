@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * Description: walo
+ *
  * Return: Always 0.
  * */
 
