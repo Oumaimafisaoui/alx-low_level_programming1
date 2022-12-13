@@ -18,12 +18,12 @@ int print_last_digit(int i)
 	result = i % 10;
 	if(result < 10)
 	{
-		_putchar(-result);
+		_putchar(-result - 48);
 		return (-result);
 	}
 	else
 	{
-		_putchar(result);
+		_putchar(result - 48);
 		return (result);
 	}
 }
