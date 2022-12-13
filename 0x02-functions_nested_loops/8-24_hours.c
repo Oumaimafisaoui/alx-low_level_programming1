@@ -11,7 +11,7 @@
  * Return: Always 0.
  */
 
-void print_last_digit(void)
+void jack_bauer(void)
 {
 	int a, b, c, d;
 
