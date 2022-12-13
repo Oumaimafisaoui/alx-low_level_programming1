@@ -2,7 +2,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * prin_to_98 - Something
+ * print_to_98 - Something
  *
  * @n: j
  *
@@ -17,7 +17,7 @@ void print_to_98(int n)
 	{
 		for (; n > 98; n--)
 		{
-			printf("%d, ",n);
+			printf("%d, ", n);
 		}
 	}
 	else if (n < 98)
