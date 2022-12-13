@@ -8,6 +8,12 @@
  * Return: Always 0.
  */
 
+
+char _putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 int _islower(int c)
 {
 	if(c >= 'a' && c <='z')
