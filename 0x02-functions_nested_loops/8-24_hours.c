@@ -4,7 +4,6 @@
 /**
  * jack_bauer - Something
  *
- *
  * Description: 'print_alphabet is a function'
  *
  * Return: Always 0.
