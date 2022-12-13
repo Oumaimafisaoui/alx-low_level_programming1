@@ -9,7 +9,7 @@
  */
 
 
-char _putchar(char c)
+void _putchar(char c)
 {
 	write(1, &c, 1);
 }
