@@ -28,7 +28,7 @@ void jack_bauer(void)
 			else
 			{
 				_putchar((o / 10) + 48);
-				_putchatr((o % 10) + 48);
+				_putchar((o % 10) + 48);
 			}
 		}
 		_putchar('\n');
