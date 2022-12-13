@@ -9,7 +9,7 @@
  * Return: Always 0.
  */
 
-void jack_bauer(void)
+void times_table(void)
 {
 	int a, b, o;
 	for (a = 0; a <= 9; a++)
