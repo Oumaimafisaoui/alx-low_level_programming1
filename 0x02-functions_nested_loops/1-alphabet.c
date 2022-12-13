@@ -1,12 +1,12 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
- * main - Entry point
+ * print_alphabet - Entry point
  *
- * Description: 'jjjjjj  hg '
+ * Description: 'print_alphabet is a function'
  *
- * Return: ero
- **/
+ * Return: Always 0.
+ */
 
 void print_alphabet(void)
 {
