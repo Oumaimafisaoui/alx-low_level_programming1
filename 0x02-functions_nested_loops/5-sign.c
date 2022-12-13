@@ -4,7 +4,7 @@
 /**
  * print_sign - Something
  *
- * @c: ehkwbfehw
+ * @n: ehkwbfehw
  *
  * Description: 'print_alphabet is a function'
  *
