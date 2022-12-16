@@ -2,9 +2,8 @@
 #include "main.h"
 /**
  * main - tests function that prints
- *
  * Description: 'ewfe iufhewuifew'
- * Return : 0
+ * Return: fwe
  */
 
 int main(void)
