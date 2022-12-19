@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * _puts - takes a pointer and change its content
- * @s: the param
+ * @str: the param
  * Description: rfrefr wedfweffew
  * Return: zero
  **/
