@@ -1,6 +1,7 @@
 #include "main.h"
 #include <string.h>
 #include <unistd.h>
+#include <stdio.h>
 /**
  * puts2 - takes a pointer and change its content
  * @str: the param
@@ -16,7 +17,7 @@ void puts2(char *str)
 	while(str[i])
 	{
 		if(i % 2 == 0)
-			write(1, &str[i], 1);
+			printf("%c",str[i]);
 		else
 			i++;
 		i++;
