@@ -13,11 +13,9 @@ void rev_string(char *s)
 	size_t i;
 	int j;
 
-	i = 0;
-	j = strlen(s);
 	for(i = 0; i < strlen(s); i++)
 	{
-		for(j = 0; j >= 0; j--)
+		for(j = strlen(s); j >= 0; j--)
 		{
 			char tmp;
 			tmp = s[i];
