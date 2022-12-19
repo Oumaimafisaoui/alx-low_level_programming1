@@ -14,5 +14,6 @@ void _puts(char *str)
 		write(1, &*str, 1);
 		str++;
 	}
+	write(1, "\n", 1);
 }
 
