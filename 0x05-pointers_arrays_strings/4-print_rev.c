@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 #include <unistd.h>
 /**
  * print_rev - takes a pointer and change its content
@@ -7,7 +8,7 @@
  * Return: zero
  **/
 
-void _puts(char *s)
+void _puts(char *str)
 {
 	int i;
 
