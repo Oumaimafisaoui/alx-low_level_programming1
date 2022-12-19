@@ -15,8 +15,8 @@ void print_rev(char *str)
 	i = 0;
 	while (i >= 0)
 	{
-		if(str[i] == '\0')
-			break ;
+		if (str[i] == '\0')
+			break;
 		i++;
 	}
 	for (i--; i >= 0; i--)
