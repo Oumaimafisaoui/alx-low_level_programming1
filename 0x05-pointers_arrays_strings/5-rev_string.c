@@ -17,7 +17,7 @@ void rev_string(char *s)
 	j = strlen(s);
 	for(i = 0; i < strlen(s); i++)
 	{
-		for(j = 0; j >= 0; j++)
+		for(j = 0; j >= 0; j--)
 		{
 			swap_int((char)s[i],(char) s[j]);
 		}
