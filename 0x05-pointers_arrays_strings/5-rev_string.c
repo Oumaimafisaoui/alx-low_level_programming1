@@ -10,17 +10,24 @@
 
 void rev_string(char *s)
 {
-	size_t i;
-	int j;
+	int count = 0, i, j;
+	char *str, temp;
 
-	for(i = 0; i < strlen(s); i++)
+	while (count >= 0)
 	{
-		for(j = strlen(s); j >= 0; j--)
+		if (s[count] == '\0')
+			break;
+		count++;
+	}
+	str = s;
+
+	for (i = 0; i < (count - 1); i++)
+	{
+		for (j = i + 1; j > 0; j--)
 		{
-			char tmp = NULL;
-			tmp = s[i];
-			s[i] = s[j];
-			s[j] = tmp;
+			temp = *(str + j);
+			*(str + j) = *(str + (j - 1));
+			*(str + (j - 1)) = temp;
 		}
 	}
 }
