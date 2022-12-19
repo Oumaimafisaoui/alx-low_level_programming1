@@ -19,7 +19,10 @@ void rev_string(char *s)
 	{
 		for(j = 0; j >= 0; j--)
 		{
-			swap_int((char)s[i],(char) s[j]);
+			char tmp;
+			tmp = s[i];
+			s[i] = s[j];
+			s[j] = tmp;
 		}
 	}
 }
