@@ -8,7 +8,7 @@
  * Return: zero
  **/
 
-void _puts(char *str)
+void print_rev(char *str)
 {
 	int i;
 
