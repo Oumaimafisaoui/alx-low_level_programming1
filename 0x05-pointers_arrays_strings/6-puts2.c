@@ -16,7 +16,7 @@ void puts2(char *str)
 	while(str[i])
 	{
 		if(i % 2 == 0)
-			write(1, str[i], 1);
+			write(1, &str[i], 1);
 		else
 			i++;
 		i++;
