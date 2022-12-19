@@ -13,10 +13,10 @@ void puts2(char *str)
 	int i;
 
 	i = 0;
-	while(s[i])
+	while(str[i])
 	{
 		if(i % 2 == 0)
-			write(1, s[i], 1);
+			write(1, str[i], 1);
 		else
 			i++;
 	}
