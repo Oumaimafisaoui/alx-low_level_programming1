@@ -3,8 +3,10 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * puts2 - takes a pointer and change its content
- * @str: the param
+ * print_array - takes a pointer and change its content
+ * @a: the param
+ * @n: e§:wq
+ * d
  * Description: rfrefr wedfweffew
  * Return: zero
  **/
@@ -12,7 +14,7 @@
 void print_array(int *a, int n)
 {
 	int i;
-	
+
 	i = 0;
 	for (; i < n; i++)
 	{
