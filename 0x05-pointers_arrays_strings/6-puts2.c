@@ -18,8 +18,6 @@ void puts2(char *str)
 	{
 		if(i % 2 == 0)
 			printf("%c",str[i]);
-		else
-			;
 		i++;
 	}
 	write(1, "\n", 1);
