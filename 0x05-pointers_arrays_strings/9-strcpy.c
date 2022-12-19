@@ -3,7 +3,7 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * strcpy - takes a pointer and change its content
+ * _strcpy - takes a pointer and change its content
  * @src: the param
  * @dest: e§:wq
  * d
@@ -11,7 +11,7 @@
  * Return: zero
  **/
 
-char* _strcpy(char *dest, char *src)
+char  *_strcpy(char *dest, char *src)
 {
 	int count = 0;
 
