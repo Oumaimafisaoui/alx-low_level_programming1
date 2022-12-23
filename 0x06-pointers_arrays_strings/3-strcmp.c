@@ -5,8 +5,8 @@
  * _strcmp - efwefwfw
  * @s1: frfr
  * @s2: ewfewf
- * Description: efwfwfwfrf
- * Return : efewf
+ * Description: 'efwfwfwfrf fefrfef'
+ * Return: efewf
  **/
 
 int _strcmp(char *s1, char *s2)
